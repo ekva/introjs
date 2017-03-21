@@ -1,0 +1,43 @@
+.headButt {
+
+    animation: 1s 3
+}
+
+
+@keyframes headbutt {
+    0%{
+      transform: rotate (0deg)
+    }
+
+     10%{
+      transform: rotate (-10deg)
+    }
+
+   20%{
+      transform: rotate (-10deg)
+    }
+
+       35%{
+      transform: rotate (45deg)
+    }
+
+    100%{
+     transform: rotate (10deg)
+
+    }
+}
+
+
+
+.CaptainHasBeenHit{
+    animation: CaptainHasBeenHit 2s ease-in forwards;
+
+
+}
+
+@keyframes CaptainHasBeenHit {
+
+    to {
+        transform: translate(100vw) rotate(1000deg);
+    }
+}
